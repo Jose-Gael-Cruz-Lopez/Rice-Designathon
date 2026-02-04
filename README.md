@@ -1,6 +1,8 @@
 # Rice-Designathon: Echobox
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/50706bb8-87a0-4c47-8199-065044ff3034" />
+<p align="center">
+  <img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/50706bb8-87a0-4c47-8199-065044ff3034" />
+</p>
 
 <!-- Video Preview -->
 <p align="center">
