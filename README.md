@@ -1,107 +1,170 @@
 # Rice-Designathon: Echobox
 
-**Demo Video:**  
-https://www.youtube.com/watch?v=GIRnsNc0mtk
+<!-- Video Preview -->
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=GIRnsNc0mtk">
+    <img src="https://img.youtube.com/vi/GIRnsNc0mtk/maxresdefault.jpg" alt="EchoBox Demo Video" width="90%">
+  </a>
+</p>
 
-**Interactive Prototype:**  
-https://www.figma.com/proto/VVRH66tP5OdZrxg0Zqensc/EchoBox---Rice-Design-a-thon-2026?page-id=10%3A2&node-id=190-193&p=f&viewport=529%2C261%2C0.37&t=F6pCH3I6qtaH7giM-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=190%3A193
+<p align="center">
+  <strong>Watch the Demo:</strong>
+  <a href="https://www.youtube.com/watch?v=GIRnsNc0mtk">YouTube</a>
+</p>
+
+<p align="center">
+  <strong>Interactive Prototype:</strong><br/>
+  <a href="https://www.figma.com/proto/VVRH66tP5OdZrxg0Zqensc/EchoBox---Rice-Design-a-thon-2026?page-id=10%3A2&node-id=190-193&p=f&viewport=529%2C261%2C0.37&t=F6pCH3I6qtaH7giM-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=190%3A193">
+    View Figma Prototype
+  </a>
+</p>
 
 ---
 
 ## Overview
 
-EchoBox is a voice-first memory application designed to preserve meaningful human moments through audio. The platform enables users to record, store, and share authentic voice messages—turning photos into emotionally rich, lasting memories.
+We don’t always realize it, but the voices of the people we love are often the first thing we forget.
 
-This project was built for **Rice Design-a-thon 2026** and focuses on human-centered design, cross-generational usability, and privacy-first interaction.
+EchoBox is a voice-first mobile application designed to help people reconnect and preserve meaningful relationships through sound. Instead of relying on impersonal text messages or scripted AI assistants, EchoBox encourages users to record and share genuine voice messages with close friends and family.
+
+By allowing people to capture thoughts, stories, and greetings in their own voice, EchoBox creates an audio scrapbook of meaningful moments. Through hearing tone, laughter, and emotion, users can feel a sense of presence and sincerity that text alone cannot provide.
+
+EchoBox uses technology to amplify real human voices—so that when memory fades, what remains is the story.
 
 ---
 
 ## Problem
 
-Modern communication tools prioritize speed and convenience, but sacrifice emotional depth.
+Modern communication tools prioritize speed and convenience, but often sacrifice emotional depth.
 
-Through user research, we identified several gaps:
-- Text-based communication strips away tone, emotion, and presence
-- Voice messages are valued but underused due to friction and discomfort
-- Many users save voicemails but lack tools to organize or revisit them intentionally
+Through early observation and research, we identified several challenges:
+- Text-based communication removes tone, emotion, and presence
+- Voice messages are valued but underused due to habit, friction, or discomfort
+- Many people save voicemails or audio clips but lack an organized, intentional way to preserve them
+- Emotional connection becomes especially difficult to maintain across generations
 
-EchoBox addresses these gaps by reframing voice as something worth preserving, not just sending.
-
----
-
-## Solution
-
-EchoBox provides a lightweight, intuitive interface for capturing and revisiting voice-based memories.
-
-Core capabilities include:
-- One-tap voice recording with minimal cognitive overhead
-- Private memory archives (“Memory Boxes”) for storing meaningful audio
-- Invite-only sharing to maintain trust and emotional safety
-- Visual feedback to make recording feel natural and approachable
-- Photo and voice pairing to create context-rich memories
+EchoBox was created to address these gaps by treating voice not as disposable, but as something worth preserving.
 
 ---
 
-## Research & Validation
+## Research Process & Findings
 
-Design decisions were informed by surveys and interviews across multiple generations (ages 8–75).
+Our research journey began with a shared observation: while texting dominates communication today, something deeply human often feels missing—especially across generations.
 
-Key findings:
-- 87% of participants felt hearing a loved one’s voice is more personal than reading text
-- 78% reported missing emotional nuance in digital communication
-- Less than one-third regularly send voice messages, despite valuing them
-- 64% had saved voicemails with no structured way to revisit them
+### Research Methods
+- 6 in-depth, one-on-one interviews
+- Participants across ages 8–75
+- Qualitative emotional analysis combined with quantitative survey insights
+- Supplemented with external research on voice communication and loneliness
 
-These insights confirmed a strong unmet need for intentional voice preservation.
+### Key Quantitative Findings
+- 87% agreed that hearing a loved one’s voice feels more personal than reading a text
+- Less than one-third send voice messages at least once a week
+- 78% reported missing the emotion behind voices in digital communication
+- 64% had saved voicemails or voice notes but no organized way to revisit them
 
----
-
-## Design Decisions
-
-- **Ease of use:** Recording must be as simple as sending a text to drive adoption  
-- **Privacy by default:** All saved memories are private unless intentionally shared  
-- **Low-pressure interaction:** Soft animations and minimal prompts reduce anxiety  
-- **Emotion-first UX:** Designed for presence and meaning rather than efficiency  
+These findings revealed a clear opportunity: people value voice deeply, but existing tools do not support preserving it intentionally.
 
 ---
 
-## Use of AI
+## Qualitative Insights & User Quotes
 
-AI was used strictly as a research synthesis tool to:
-- Summarize anonymous qualitative interview data
-- Identify recurring emotional and behavioral patterns
-- Accelerate insight discovery under hackathon time constraints
+During interviews, participants shared strong emotional responses tied to voice and memory.
 
-All interpretation, design choices, and product direction were human-led.
+One interviewee stated:
+> “I need to make more memories with my family… sometimes it feels like it’s not the same connection through messages.”
+
+Another participant shared that they could no longer remember their father’s voice and now try to save any voicemails or short clips they receive, simply to hold on to that sound.
+
+Across interviews, themes of loneliness, authenticity, and fear of forgetting emerged repeatedly. Many users expressed that voice felt more real, more comforting, and more human than text—but also admitted feeling shy or worried about intruding when sending voice messages.
+
+This insight directly shaped EchoBox’s warm, low-pressure design.
+
+---
+
+## Supporting Research & Validation
+
+Our findings aligned with existing research on vocal communication:
+- Vocal interaction has been shown to alleviate stress and reinforce emotional bonds
+- A recent survey of 1,000 Americans found that:
+  - 2 out of 3 individuals use voice notes
+  - Nearly 50% reported that voice messages strengthened relationships or reduced loneliness
+  - 61% agreed that voice conveys tone and emotion more effectively than text
+
+The convergence of user interviews and external research confirmed that EchoBox addresses a genuine, validated need.
+
+---
+
+## Design Decisions & Rationale
+
+### One-Tap Voice Recording
+Ease of use was critical. Multiple interviewees emphasized that if recording wasn’t as easy as texting, they wouldn’t use it.
+
+EchoBox uses a single, prominent microphone button:
+- Tap and hold to record
+- Release to send
+- No menus or extra steps
+
+Light visual feedback, such as animated waveforms and soft prompts, was added to help users feel comfortable and less self-conscious while recording.
+
+---
+
+### Memory Boxes (Voice Archives)
+
+Users frequently mentioned saving voicemails they never delete. To support this behavior intentionally, we introduced **Memory Boxes**—a private archive for meaningful voice recordings.
+
+These archives:
+- Allow users to bookmark and organize cherished voice messages
+- Are private by default to encourage saving without social pressure
+- Were inspired by the idea of a “treasure box” for voices
+
+---
+
+### Privacy & Trust
+
+Because voice is personal and vulnerable, trust was a major concern in our research.
+
+Design choices included:
+- Invite-only, closed network (no public broadcasting)
+- Mutual connections required to exchange messages
+- Clear indicators when messages are played
+- Ability to unsend or delete voice messages within a short timeframe
+
+These decisions directly reflected user concerns about exposure and emotional safety.
+
+---
+
+## Use of AI in the Design Process
+
+With interviews spanning ages 8–75, we gathered hours of qualitative data under tight hackathon constraints.
+
+AI was used as a research synthesis tool to:
+- Summarize anonymous interview responses
+- Surface recurring emotional themes
+- Highlight generational differences in how memory loss and connection were described
+
+We used AI (Claude) to analyze open-ended responses, particularly the “additional thoughts” sections, which revealed subtle but consistent patterns—such as anxiety around losing voices.
+
+All final insights, interpretations, and design decisions were human-led. AI served to accelerate synthesis, not replace empathy or judgment.
 
 ---
 
 ## Skills Demonstrated
 
 - Human-centered product design  
-- User research (surveys, interviews, synthesis)  
+- Qualitative user research and synthesis  
 - UX writing and storytelling  
-- Prototyping and interaction design (Figma)  
-- Ethical and privacy-first design thinking  
+- Interaction design and prototyping (Figma)  
+- Ethical, privacy-first design thinking  
 - Cross-generational accessibility considerations  
 
 ---
 
-## Tech & Tools
+## Tools & Technologies
 
-- Figma (UI/UX design and prototyping)  
-- Qualitative user research methods  
-- AI-assisted research analysis  
-
----
-
-## Future Work
-
-- Voice-to-text captions for accessibility  
-- Scheduled and time-locked voice delivery  
-- Shared family or group memory spaces  
-- Multilingual voice support  
-- Native mobile implementation  
+- Figma (UI/UX design and prototyping)
+- User research methods (interviews and surveys)
+- AI-assisted qualitative analysis
 
 ---
 
@@ -114,4 +177,4 @@ All interpretation, design choices, and product direction were human-led.
 
 ---
 
-*EchoBox explores how technology can preserve emotional connection—not just information.*
+*When memory is erased, when there is nothing left to remember except the story, the voice remains.*
